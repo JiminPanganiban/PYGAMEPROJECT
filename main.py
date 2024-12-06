@@ -9,7 +9,6 @@ pygame.mixer.init()
 pygame.display.set_caption("Dash quest")
 pygame.display.set_icon(pygame.image.load(GAME_ICON))
 
-# DEFAULT SCRIPT........................................................................................................
 red_ball_images = create_rotated_images(BALL_RED, 4)
 stone_ball_images = create_rotated_images(STONE_BALL, 4)
 beach_ball_images = create_rotated_images(BEACH_BALL, 4)
@@ -22,8 +21,6 @@ pipe_image = pygame.transform.scale(pygame.image.load(PIPE_LOCK), (TILE_W, TILE_
 power_gravity_image = pygame.transform.scale(pygame.image.load(POWER_GRAVITY), (TILE_W, TILE_H)).convert_alpha()
 power_speed_image = pygame.transform.scale(pygame.image.load(POWER_SPEED), (TILE_W, TILE_H)).convert_alpha()
 power_jump_image = pygame.transform.scale(pygame.image.load(POWER_JUMP), (TILE_W, TILE_H)).convert_alpha()
-
-# ......................................................................................................................
 
 DARK_BLUE = (0, 0, 0)
 def start_screen():
@@ -295,4 +292,4 @@ if __name__ == '__main__':
         if play_levels(level_list, start_index):
             break
         to_start = False
-    print('YOU WON ! THANKS FOR PLAYING :)')
+    print('YOU FINISHED THE GAME! THANKS FOR PLAYING :)')

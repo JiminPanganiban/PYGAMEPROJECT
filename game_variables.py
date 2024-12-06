@@ -34,11 +34,11 @@ BEACH_BALL = PATH + '/assets/beach-ball.png'
 POP_RED_IMAGE = PATH + '/assets/pop-red-ball.png'
 POP_STONE_IMAGE = PATH + '/assets/pop-stone-ball.png'
 POP_BEACH_IMAGE = PATH + '/assets/pop-beach-ball.png'
-CANDLE = PATH + '/assets/candle.png'
+CANDLE = PATH + '/assets/spikewood.png'
 THORN = PATH + '/assets/thorn.png'
 KEY = PATH + '/assets/key.png'
-PIPE_LOCK = PATH + '/assets/pipe-locked.png'
-PIPE_OPEN = PATH + '/assets/pipe-open.png'
+PIPE_LOCK = PATH + '/assets/doorLock.png'
+PIPE_OPEN = PATH + '/assets/doorOpen.png'
 POWER_GRAVITY = PATH + '/assets/power-gravity.png'
 POWER_SPEED = PATH + '/assets/power-speed.png'
 POWER_JUMP = PATH + '/assets/power-jump.png'
@@ -65,9 +65,6 @@ PIPE_GROUP = pygame.sprite.Group()
 POWER_GRAVITY_GROUP = pygame.sprite.Group()
 POWER_SPEED_GROUP = pygame.sprite.Group()
 POWER_JUMP_GROUP = pygame.sprite.Group()
-
-
-# Helper functions .....................................................................................................
 
 def draw_all(_ball_draw=True):
     SCREEN.fill(BG_COLOR)

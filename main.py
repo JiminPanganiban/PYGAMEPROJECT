@@ -6,7 +6,7 @@ from game_variables import *
 
 pygame.init()
 pygame.mixer.init()
-pygame.display.set_caption("Dash quest")
+pygame.display.set_caption("Dash Quest")
 pygame.display.set_icon(pygame.image.load(GAME_ICON))
 
 red_ball_images = create_rotated_images(BALL_RED, 4)

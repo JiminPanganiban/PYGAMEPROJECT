@@ -26,8 +26,8 @@ POP_W, POP_H = 40 // SCALE, 40 // SCALE
 KEY_W, KEY_H = 40 // SCALE, 40 // SCALE
 THORN_UP_BOUND, THORN_LOW_BOUND, THORN_SPEED = 50, 50, 1
 
-GAME_ICON = PATH + '/assets/icon.png'
-TILE = PATH + '/assets/tile.png'
+GAME_ICON = PATH + '/assets/DashLogo.png'
+TILE = PATH + '/assets/tilewood2.png'
 BALL_RED = PATH + '/assets/red-ball.png'
 STONE_BALL = PATH + '/assets/stone-ball.png'
 BEACH_BALL = PATH + '/assets/beach-ball.png'

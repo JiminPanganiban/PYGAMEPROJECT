@@ -4,6 +4,24 @@ from env_class import *
 from ball_class import Ball
 from game_variables import *
 
+# Dash Quest Instructions:
+
+# Controls:
+# Use the Left and Right Arrow Keys to move.
+# Press Space to jump.
+
+# Cube Types:
+# PRESS 1 for Normal Cube: Great for navigating tricky levels.
+# PRESS 2 for Stone Cube: Heavier and less bouncy, this is immune to spikes but not in the enemy.
+# PRESS 3 for Air Cube: Light and floaty, perfect for reaching high places with ease.
+
+# Power-ups:
+# Power Gravity Module: Inverts gravity.
+# Power Speed Module: Increases the speed of the character.
+# Power Jump Module: Increases the jump strength of the character.
+
+
+
 pygame.init()
 pygame.mixer.init()
 pygame.display.set_caption("Dash Quest")

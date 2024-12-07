@@ -59,7 +59,6 @@ class Key(pygame.sprite.Sprite):
             self.kill()
         return None
 
-
 class Pipe(pygame.sprite.Sprite):
     def __init__(self, x, y, _pipe_image):
         super().__init__()
